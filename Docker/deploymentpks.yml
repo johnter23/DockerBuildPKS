@@ -46,7 +46,7 @@ spec:
     - name: http
       port: 8080
       protocol: TCP
-      nodeport: 30010
+      targetPort: 8080
   selector:
     app: nodejs-app
   type: NodePort
